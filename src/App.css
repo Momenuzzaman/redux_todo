@@ -1,0 +1,27 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+section {
+  display: grid;
+  grid-gap: 0.5rem;
+  padding: 1rem;
+}
+article {
+  background-color: #293462;
+  color: white;
+  padding: 0.5rem;
+}
+@media (min-width: 600px) {
+  section {
+    grid-template-columns: auto auto;
+  }
+}
+@media (min-width: 768px) {
+  section {
+    grid-template-columns: auto auto auto;
+  }
+}
